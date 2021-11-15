@@ -17,7 +17,7 @@ function get (key) {
 
 const YOUTUBE_DL_HOST =
   get('YOUTUBE_DL_HOST') ||
-  'https://api.github.com/repos/ytdl-org/youtube-dl/releases?per_page=1'
+  'https://api.github.com/repos/yt-dlp/yt-dlp/releases?per_page=1'
 
 const YOUTUBE_DL_DIR =
   get('YOUTUBE_DL_DIR') || path.join(__dirname, '..', 'bin')
